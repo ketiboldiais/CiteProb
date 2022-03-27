@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>CiteProbe</title>
+	</head>
+	<body>
+		<h1>Cite Probe</h1>
+		<main>
+			<div>
+				<label class="button-30">
+					<input type="file" id="inputFile" />
+					Choose File
+				</label>
+				<button type="button" id="uploadButton" class="button-30">
+					Upload
+				</button>
+			</div>
+			<textarea
+				id="resultText"
+				placeholder="PDF text will appear here."
+			></textarea>
+			<ul id="caseList"></ul>
+		</main>
+		<script src="./app.js"></script>
+	</body>
+</html>
